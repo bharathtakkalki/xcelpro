@@ -1,8 +1,11 @@
 @import './Theme';
 
-//Import Componenets style sheets 
 
 
 //Import Common Components style sheets 
 @import './components/common/Input';
-@import './components/common/Button'
+@import './components/common/Button';
+
+
+//Import screens style sheets 
+@import './screens/LandingPage';

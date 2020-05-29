@@ -1,6 +1,5 @@
 import React from 'react';
-import Input from '../components/common/Input';
-import Button from '../components/common/Button';
+import Login from '../components/login/Login';
 
 
 
@@ -8,13 +7,8 @@ import Button from '../components/common/Button';
 const LandingPage = () => {
     return(
         <div style={{padding:25}}>
-        <Input formField="Email" happy={false} />
-        <br/>
-
-        <Button style={{margin:'16px 0px'}} primary>Join our community</Button>
-        <br/>
-        <Button facebook> Join via facebook </Button>
-
+            <Login/>
+            <p className="footer-container">By joining,you agree to the <a className="footer-link" href="/">Terms </a>and<a className="footer-link" href='/'> Privacy Policy</a></p>
         </div>
     )
 }
