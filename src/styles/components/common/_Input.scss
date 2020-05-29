@@ -1,0 +1,35 @@
+.input{
+    .input-field {
+        outline: none;
+        background-color: white;
+        border: 1px solid $grey3;
+        border-radius: 6px;
+        padding:0px 8px 0px  16px;
+        height: 40px;
+        font-size: 14px;
+        width: 98%;
+        &:focus{
+            border-color:$grey1;
+        }
+    }
+    .key-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 8px;
+        color: $grey2;
+        .key{
+            font-size: 14px;
+            .error-message{
+                margin-left:16px;
+                color:$error
+            }
+        }
+        .happy-icon{
+            color: $primary-green;
+        }
+        .frown-icon{
+            color:$error;
+        }
+    }
+}
