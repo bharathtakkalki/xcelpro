@@ -1,0 +1,15 @@
+.content-container{
+    position: relative;
+    height: 95vh;
+    .text{
+        position: absolute;
+        z-index: 1;
+        left:32px;
+        top:8px;
+        font-size: 80px;
+        color: $grey5;
+    }
+    .image{
+        position: absolute;
+    }
+}

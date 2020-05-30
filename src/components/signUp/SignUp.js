@@ -2,14 +2,15 @@ import React from 'react';
 import Button from '../common/Button';
 import Input from '../common/Input';
 
-const SignUp = ({ ...props }) => {
+const SignUp = ({ setShowSignUp }) => {
+
 	return (
 		<div className="landingPage-form-container">
 			<h1 className="heading">Sign-Up</h1>
 			<p className="sub-heading">
-            Already have an account?<label className="switch-link"> Login</label>
+            Already have an account?<label className="switch-link" onClick={()=>setShowSignUp(false)}> Login</label>
 			</p>
-			<Button facebook>Join via facebook</Button>
+			<Button facebook onClick={()=>{window.alert('Facebook Authentication flow')}}>Join via facebook</Button>
             <div className="name-field-container">
                 <Input formField="First Name" happy={true} type="text" placeholder="First Name"/>
                 <Input style={{marginLeft:8}} formField="Last Name" happy={true} type="text" placeholder="Last Name"/>

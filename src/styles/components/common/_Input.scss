@@ -8,7 +8,7 @@
         padding:0px 8px 0px  16px;
         height: 40px;
         font-size: 14px;
-        width: 98%;
+        max-width:100%;
         &:focus{
             border-color:$grey1;
         }

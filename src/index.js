@@ -6,9 +6,9 @@ import Controller from './Controller';
 import './styles/main.scss'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Controller/>
-  </React.StrictMode>,
+  // <React.StrictMode>
+    <Controller/>,
+  // </React.StrictMode>,
   document.getElementById('root')
 );
 
