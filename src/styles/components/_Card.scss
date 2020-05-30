@@ -1,0 +1,48 @@
+.card{
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    background: $white;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 1px 1px 12px -8px rgba(0, 0, 0, 0.75);
+    .card-action{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        .elipses-icon{
+            color: $grey2;
+        }
+        .star-icon{
+            color:$star-color;
+            cursor: pointer;
+        }
+    }
+    .card-heading{
+        color:$grey1;
+        text-align: center;
+        p{
+            margin-top: unset;
+            color: $grey4;
+            font-size: small;
+        }
+        h3{
+            margin-bottom: 8px;
+        }
+    }
+    .card-body{
+        width: 100%;
+        .icon-value{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color:$grey2;
+            p{
+                margin: 8px 0px;
+                font-size: small;
+            }
+        }
+    }
+}

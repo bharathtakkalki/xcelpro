@@ -8,6 +8,8 @@ $white:#ffffff;
 $error:#c23b22;
 $blue:#0f7fff;
 $black:#000000;
+$background:#F5F6FA;
+$star-color:#dca87b;
 
 $facebook-blue:#475993;
 
@@ -16,3 +18,10 @@ $facebook-blue:#475993;
 $primary-green-hover: lighten($primary-green, 5%);
 //Active Primary 
 $primary-green-active: darken($primary-green, 10%);
+
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+$font-family:'Muli', sans-serif;
+
+body{
+    font-family: $font-family;
+}

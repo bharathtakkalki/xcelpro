@@ -1,0 +1,27 @@
+.left-nav-bar{
+    width: 100px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid $grey4;
+    background: $white;
+    box-shadow: -4px 1px 9px 0px rgba(0,0,0,0.75);
+    .logo{
+        width:100px;
+        height:100px;
+    }
+    .list{
+        list-style: none;
+        padding: unset;
+        align-self: center;
+    }
+    .list-item{
+        margin:48px 16px;
+        
+    }
+    .icon{
+        width: 36px;
+        height: 36px;
+        color:$grey3;
+    }
+}

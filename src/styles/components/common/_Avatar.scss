@@ -1,0 +1,14 @@
+.avatar-wrapper{
+    border: 3px solid transparent;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    transform: rotate(-45deg);
+    padding: 5px;
+    .avatar-image{
+        border-radius: 50%;
+        transform: rotate(45deg);
+        width: inherit;
+        height: inherit;
+    }
+}

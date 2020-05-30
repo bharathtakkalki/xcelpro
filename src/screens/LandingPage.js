@@ -4,7 +4,7 @@ import SignUp from '../components/signUp/SignUp';
 import Carousel from '../components/carousel/Carousel';
 
 const LandingPage = () => {
-	const [ showSignUp, setShowSignUp ] = useState(false);
+	const [ showSignUp, setShowSignUp ] = useState(true);
 	return (
 		<div className="landing-page">
 			<div className="content">

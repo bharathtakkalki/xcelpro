@@ -1,11 +1,17 @@
 @import './Theme';
 
 
-//Import Common Components style sheets 
+//Import Components style sheets 
 @import './components/common/Input';
 @import './components/common/Button';
+@import './components/common/Avatar';
+@import './components/common/Header';
+@import './components/common/LeftNavBar';
 @import './components/Carousel';
+@import './components/Card';
 
 
 //Import screens style sheets 
 @import './screens/LandingPage';
+@import './screens/Dashboard';
+
