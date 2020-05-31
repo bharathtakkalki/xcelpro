@@ -1,13 +1,23 @@
 import React from 'react';
 import Avatar from './Avatar';
+import {connect} from 'react-redux'; 
 
-const Header = () => {
+
+const Header = (props) => {
     return(
         <header className="header">
             <h1 className="header-heading">Dashboard</h1>
-            <Avatar small className="header-avatar"/>
+            <Avatar src={props.user.imgUrl} small className="header-avatar"/>
         </header>
     )
 }
 
-export default Header;
+const mapStateToProps = state =>{
+	return{
+		user:state.user,
+	}
+}
+
+
+
+export default connect(mapStateToProps)(Header);
