@@ -55,7 +55,6 @@ const LandingPage = (props) => {
 
 	return (
 		<div className="landing-page">
-			{console.log(loginError)}
 			<div className="content">
 				<Carousel />
 			</div>

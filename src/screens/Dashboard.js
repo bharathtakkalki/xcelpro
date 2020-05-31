@@ -49,7 +49,6 @@ const Dashboard = (props) => {
 	}
 	return (
 		<div className="dashboard">
-			{console.log(props.accessToken)}
 			<LeftNavBar />
 			<div className="right-container">
 				<Header />
